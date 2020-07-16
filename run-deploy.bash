@@ -1,6 +1,6 @@
 #!/bin/bash -v
 
-find docs -type f -name "*.html" | xargs rm -f   # delete any existing *.html files
+./clear-output.bash   # delete any existing *.html files
 
 asciidoctor  'docs/**/*.adoc'   # use `asciidoctor` convert `*.adoc` files => *`.html`
 

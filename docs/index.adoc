@@ -6,4 +6,4 @@
 
 First blather!
 
-image::20200715-dns-a-records.png[DNS "A" records]
+image::20200716-dns-a-records.png[DNS "A" records]
