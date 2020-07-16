@@ -1,7 +1,5 @@
 # The Tupelo Blog  -  by Alan Thompson
 
-:imagesdir:  https://github.com/io-tupelo/blog/tree/master/resources
-
 ## The AsciiDoc Version!!!  #3
 
 First blather!
