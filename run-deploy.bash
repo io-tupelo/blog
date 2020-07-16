@@ -1,10 +1,17 @@
 #!/bin/bash -v
 
-rm -rf docs
-rsync -a docs-tmpl/ docs 
+echo ""
+echo "before"
+tree docs
+find docs -type f -name "*.html" | xargs rm -f 
+echo ""
+echo "after"
+tree docs
 
-asciidoctor  -D docs  -R src 'src/**/*.adoc' 'src/**/*.adoc' 
+echo "after"
+asciidoctor  'docs/**/*.adoc' 
 
+echo "after"
 git add .
 git commit  --all  -m'misc'  ;  git push
 
