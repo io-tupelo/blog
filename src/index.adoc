@@ -1,5 +1,7 @@
 
 # The Tupelo Blog  -  by Alan Thompson
 
+## The AsciiDoc Version!!!
+
 First blather!
 
