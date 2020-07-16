@@ -5,3 +5,4 @@
 
 First blather!
 
+image::../resources/20200715-dns-a-records.png[DNS "A" records]
