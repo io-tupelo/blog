@@ -1,17 +1,11 @@
 #!/bin/bash -v
 
-echo ""
-echo "before"
-tree docs
-find docs -type f -name "*.html" | xargs rm -f 
-echo ""
-echo "after"
-tree docs
+find docs -type f -name "*.html" | xargs rm -f   # delete any existing *.html files
 
-echo "after"
-asciidoctor  'docs/**/*.adoc' 
+asciidoctor  'docs/**/*.adoc'   # use `asciidoctor` convert `*.adoc` files => *`.html`
 
-echo "after"
+# commit all changes into git, then push to GitHub
 git add .
-git commit  --all  -m'misc'  ;  git push
+git commit  --all  -m'misc'  
+git push
 
