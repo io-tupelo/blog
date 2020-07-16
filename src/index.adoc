@@ -1,6 +1,6 @@
 # The Tupelo Blog  -  by Alan Thompson
 
-:imagesdir:  ../resources
+:imagesdir:  https://github.com/io-tupelo/blog/tree/master/resources
 
 ## The AsciiDoc Version!!!  #3
 
