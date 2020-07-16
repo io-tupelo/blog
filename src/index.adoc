@@ -1,9 +1,0 @@
-# The Tupelo Blog  -  by Alan Thompson
-
-:imagesdir: .
-
-## The AsciiDoc Version!!!  #3
-
-First blather!
-
-image::20200715-dns-a-records.png[DNS "A" records]
