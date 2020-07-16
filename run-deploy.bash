@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -v
 
 rm -rf docs
 rsync -a docs-tmpl/ docs 
